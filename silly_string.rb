@@ -49,4 +49,4 @@ sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples 
 
 sentence = sentence # Add your gsub chain here
 
-puts "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!".gsub(/[AaOo]/), 'A' => 'O', 'a' => 'o')
+puts "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!".gsub(/[AaOo]/, 'A' => 'O', 'a' => 'o')
